@@ -5,10 +5,10 @@ module.exports = {
         port: 3000,
         proxy: {
             '/api': {
-                target: 'http://localhost:8080',
+                target: 'https://springVueConference.herokuapp.com/',
                 ws: true,
                 changeOrigin: true
             }
         }
     }
-}
+};
