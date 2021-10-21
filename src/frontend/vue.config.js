@@ -5,7 +5,7 @@ module.exports = {
         port: 3000,
         proxy: {
             '/api': {
-                target: 'https://springVueConference.herokuapp.com/',
+                target: 'https://springvueconference.herokuapp.com/',
                 ws: true,
                 changeOrigin: true
             }
